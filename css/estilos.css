@@ -1,0 +1,169 @@
+body{
+	background-color: #000000;
+}
+.img-unad{
+	margin-left: 700px;
+	width: 300px;
+	height: 200px;
+}
+#cabezeraweb{
+	background-color: #696969;
+	font-size: 24px;
+	color: #ffffff;
+	width: 100;
+	height: 100px;
+}
+
+#parrafo{
+	background-color:#ffffff ;
+	font-size: 30px;
+	color: #000000;
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	border: 10px solido red;
+
+}
+#barradenavegacion{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+#barradenavegacion{
+	width: 1000px;
+	margin: 10px auto;
+	background-color: #ffffff;
+}
+#barradenavegacion ul{
+	list-style: none;
+
+}
+#navegacion >li{
+	position: relative;
+	display: inline-block;
+}
+#navegacion >li a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'open-sans';
+	text-decoration: none;
+}
+#navegacion li > a:hover{
+	 color: #CE7D35;
+	 transition: all .3s;
+}
+
+/*submenu*/
+#submenu1{
+	position: absolute;
+	background: #A9A9A9;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+
+}
+#submenu2{
+	position: absolute;
+	background: #A9A9A9;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	
+}
+#submenu3{
+	position: absolute;
+	background: #A9A9A9;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+#submenu1 li a{
+	display: block;
+	padding:15px;
+	color: #000000;
+	font-family: 'open-sans'
+	text-decoration:none;
+}
+#navegacion li:hover #submenu1{
+	visibility: visible;
+	opacity: 1;
+
+}
+#submenu2 li a{
+	display: block;
+	padding:15px;
+	color: #000000;
+	font-family: 'open-sans'
+	text-decoration:none;
+}
+#navegacion li:hover #submenu2{
+	visibility: visible;
+	opacity: 1;
+
+}
+#submenu3 li a{
+	display: block;
+	padding:15px;
+	color: #000000;
+	font-family: 'open-sans'
+	text-decoration:none;
+}
+#navegacion li:hover #submenu3{
+	visibility: visible;
+	opacity: 1;
+
+
+}
+
+#parrafosegundo{
+	background-color: #000000;
+	font-size: 24px;
+	color: #ffffff;
+	width: 100;
+	height: 100px;
+	margin-left: 100px;
+	line-height: 10px;
+}
+footer{
+	background-color: #000000;
+	font-size: 24px;
+	color: #ffffff;
+	width: 100;
+	height: 100px;
+	margin: 110px 50px 20px 50px;
+	font-family: verdana;
+	font-size: 7px;
+	text-align: center;
+}
+div{
+	width: 70%;
+	height: 900px;
+	background-color: #000000;
+	margin: 50px 300px 0px 250px;
+}
+.contenedorparrafos{
+
+	height: 700px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.parrafo-index{
+
+	height: 900px;
+	display: block;
+	color: #ffffff;
+	font-family: verdana;
+}
+.imagunad{
+	margin-left: 200px;
+	width: 30%;
+	height: 40%;
+
+}
